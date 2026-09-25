@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9ff;
+}
+.container h1 {
+    background:blue;
+    color: rgb(252, 249, 249);
+    text-align: center;
+    font-size: 60px;
+    padding-top: 25px;
+}
+
+.introductions {
+    background:blue;
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    line-height: 1.9;
+    padding: 0 80px 80px;
+}
+/* CALCULATOR */
+.calculator {
+    padding: 55px 6%;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.input-group {
+    width: 10%;
+}
+
+.input-group label {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    height: 52px;
+    border: 2px solid #999dde;
+    border-radius: 5px;
+    background: white;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.input-group select {
+    cursor: pointer;
+}
+.result-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+.result-box {
+    text-align: center;
+}
+.result-value {
+    font-size: 50px;
+    color: #050505;
+}
+.result-label {
+    font-size: 20px;
+    margin-top: 8px;
+}
+.actual {
+    color: blue;
+}
+.gst {
+    color: green;
+}
+.total {
+    color: blue;
+}
+.operator {
+    font-size: 50px;
+    color: black;
+}
