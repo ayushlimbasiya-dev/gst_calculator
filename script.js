@@ -17,9 +17,9 @@ function calculateGST() {
         gstAmount = amount * gst / 100;
         total = amount + gstAmount;
     }
-    document.getElementById("actualAmount").innerText ="₹" + actualAmount.toFixed(0);
-    document.getElementById("gstAmount").innerText ="₹" + gstAmount.toFixed(0);
-    document.getElementById("totalAmount").innerText ="₹" + total.toFixed(0);
+    document.getElementById("actualAmount").innerText ="₹" + actualAmount.toFixed(2);
+    document.getElementById("gstAmount").innerText ="₹" + gstAmount.toFixed(2);
+    document.getElementById("totalAmount").innerText ="₹" + total.toFixed(2);
 }
 document.getElementById("amount").addEventListener("input", calculateGST);
 document.getElementById("gstRate").addEventListener("change", calculateGST);
